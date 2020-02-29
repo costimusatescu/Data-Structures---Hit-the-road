@@ -1,4 +1,4 @@
-TEMA 2 - "Hit the Road"
+Homework 2 - "Hit the Road"
 task1 - cel mai aglomarat oras
 task2 - harta valida
 
@@ -16,4 +16,3 @@ Se afla cel mai aglomerat oras si numarul de orase cu legatura spre el.
 Acestea se scriu in fisierul task1.
 Se apeleaza functia componente_conexe.
 In functie de numarul returnat se scrie un mesaj in fisierul task2.
-
