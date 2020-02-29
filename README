@@ -1,0 +1,19 @@
+TEMA 2 - "Hit the Road"
+task1 - cel mai aglomarat oras
+task2 - harta valida
+
+Programul principal, main.cpp foloseste header-ul hashtable.h care implementeaza functionalitati specifice hashtable.
+Prima functie de hash este folosita pentru stringuri, iar a doua este folosita pentru numere intregi.
+Se calculeaza numarul de componente conexe prin Dfs-uri pe nodurile marcate ca nevizitate.
+In functia main, se initializeaza variabilele si fisierele de iesire.
+Se aloca memorie pentru gradul de aglomeratie (N).
+Se initializeaza htable1, care are cheia, orasul si valoarea, un numar intreg.
+Se initializeaza htable2, care are cheia, un numar intreg si valoarea, orasul.
+Se citesc cele N orase si se adauga in hashtables.
+Se citesc cele M legaturi dintre orase si se adauga in lista de adiacenta a grafului.
+Se calculeaza gradul de aglomerare.
+Se afla cel mai aglomerat oras si numarul de orase cu legatura spre el.
+Acestea se scriu in fisierul task1.
+Se apeleaza functia componente_conexe.
+In functie de numarul returnat se scrie un mesaj in fisierul task2.
+
